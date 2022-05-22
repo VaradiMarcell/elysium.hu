@@ -1,0 +1,120 @@
+.sablon{
+    width: 300px;
+}
+
+h3{
+    margin-top: 45px;
+}
+
+.cart{
+    height: 30px;
+}
+
+#add-card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border: none;
+    outline: 1px solid rgb(234, 46, 92);
+  
+    background-color: #1f2029;
+    background: linear-gradient(to right, rgb(234, 46, 92), rgb(191, 33, 105));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: monospace;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+    letter-spacing: 1px;
+  
+    font-size: 25px;
+  
+    border-radius: 5px;
+    transform: scale(1);
+    transition: .4s ease-in-out;
+}
+
+
+#add-card:hover{
+    transform: scale(1.05);
+}
+
+
+.loveH{
+    background: linear-gradient(to right, rgb(182, 72, 99), rgb(114, 17, 61));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.loveP{
+    background: linear-gradient(to right, rgb(182, 72, 99), rgb(114, 17, 61));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+.oceanH{
+    background: linear-gradient(to right, rgb(57, 100, 192), rgb(16, 93, 165));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.oceanP{
+    background: linear-gradient(to right, rgb(57, 100, 192), rgb(16, 93, 165));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+.flameH{
+    background: linear-gradient(to right, rgb(192, 57, 57), rgb(165, 16, 16));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.flameP{
+    background: linear-gradient(to right, rgb(192, 57, 57), rgb(165, 16, 16));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.value{
+    color: rgb(216, 0, 0);
+}
+
+.value-old{
+    color: rgb(255, 57, 57);
+    text-decoration: line-through;
+}
+
+
+.design{
+    height: 330px;
+}
+
+.own{
+    outline: 3px solid rgb(191, 33, 105);
+    border-radius: 10px;
+}

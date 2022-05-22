@@ -1,0 +1,26 @@
+@media (min-width: 0px) {
+    .full-height {
+        height: 580vh;
+    }
+}
+
+@media (min-width: 425px) {
+    .full-height {
+        height: 580vh;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .full-height {
+        height: 110vh;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .full-height {
+        height: 250vh;
+    }
+}
+

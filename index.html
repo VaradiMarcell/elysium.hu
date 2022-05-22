@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webszerver bérlés, WebShop üzemeltetés, karbantartás | ELYSIUM.hu</title>
+
+    <link rel="shortcut icon" href="imgs/Logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <header class="cd-header">
+        <div class="header-wrapper">
+            <div class="logo-wrap">
+                <a href="elysium.html" class="hover-target"><span>Elysium</span>.hu</a>
+            </div>
+            <div class="nav-but-wrap">
+                <div class="menu-icon hover-target">
+                    <span class="menu-icon__line menu-icon__line-left"></span>
+                    <span class="menu-icon__line"></span>
+                    <span class="menu-icon__line menu-icon__line-right"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="nav">
+        <div class="nav__content">
+            <ul class="nav__list">
+                <li class="nav__list-item active-nav"><a href="elysium.html" class="hover-target">Főoldal</a></li>
+                <li class="nav__list-item"><a href="sites/offers.html" class="hover-target">Ajánlataink</a></li>
+                <li class="nav__list-item"><a href="sites/support.html" class="hover-target">Elakadtál?</a></li>
+                <li class="nav__list-item"><a href="sites/about.html" class="hover-target">Rólunk</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="section full-height over-hide">
+        <div class="switch-wrap">
+            <img src="imgs/Logo.png" alt="" id="logo">
+
+            <h1>Köszöntünk Webshopunkban!</h1>
+
+            <button class="logIN" onclick="scrollLogin()">Bejelentkezés</button>
+            <button class="regist" onclick="scrollRegist()">Regisztráció</button>
+        </div>
+    </div>
+
+    <div class="container" id="loginDiv">
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-6 text-center " id="login">
+                <h1>Jelentkezz be!</h1><br>
+
+
+                <h6>E-mail</h6>
+                <input type="email" name="loginEmail" id="loginEmail" placeholder="elysium.info@gmail.com"><br>
+                <br>
+
+                <h6>Jelszó</h6>
+                <input type="password" name="loginPas" id="loginPas" placeholder="Elysium@01">
+            </div>
+            <div class="col-md-3">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <button id="btn">Bejelentkezés</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="registDiv">
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-6 text-center" id="register">
+                <h1>Regisztrálj!</h1><br>
+
+                <h6>E-mail</h6>
+                <input type="email" name="loginEmail" id="loginEmail" placeholder="elysium.info@gmail.com"><br>
+                <br>
+                <h6>Jelszó</h6>
+                <input type="password" name="loginPas" id="loginPas" placeholder="Elysium@01"><br>
+                <br>
+                <h6>Jelszó Újra</h6>
+                <input type="password" name="loginPas" id="loginPas" placeholder="Elysium@01"><br>
+
+                <br>
+
+                <input type="checkbox" name="ÁSZF elfogadása" id="aszf">
+                <p>Általános Szerződési Feltételeink elfogadása</p>
+
+
+            </div>
+            <div class="col-md-3 text-center">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <button id="btn">Regisztráció</button>
+            </div>
+        </div>
+    </div>
+
+    <a class="link-to-portfolio hover-target" onclick="scrollUp()"></a>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div id="progressbar"></div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
